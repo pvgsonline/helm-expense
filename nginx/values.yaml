@@ -1,5 +1,5 @@
 deployment:
-  image: latest
+  imageVersion: latest
   replicas: 2
 services:
   type: LoadBalancer
