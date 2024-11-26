@@ -1,0 +1,14 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: nginx
+spec:
+  type: {{ .Values.services.type }}
+  selector:
+    tier: frontend
+    app: nginx
+  ports:
+  - name: nginx-svc-port
+    protocol: TCP
+    port: {{ .Values.services.port }}
+    targetPort: {{ .Values.services.port }}
