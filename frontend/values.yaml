@@ -1,4 +1,4 @@
-deployement:
+deployment:
   imageversion: v1
   replicas: 2
 autoscaling:
