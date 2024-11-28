@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
         - name: mysql
-          image: pvgsonline/mysql:{{ .Value.deployment.imageversion }}
+          image: pvgsonline/mysql:v1
 ---
 kind: Service
 apiVersion: v1
