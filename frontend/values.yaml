@@ -1,0 +1,5 @@
+deployement:
+  imageversion: v1
+  replicas: 2
+autoscaling:
+  cpupercentage: 15
